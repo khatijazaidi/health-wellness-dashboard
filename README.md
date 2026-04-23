@@ -1,4 +1,4 @@
-# 🌿 Health & Wellness Dashboard
+#  Health & Wellness Dashboard
 
 **BITSFRAME Frontend Engineering Assignment**
 **Candidate:** Khatija Zaidi
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 A modern, responsive Health & Wellness Dashboard built with **Next.js App Router**, **Material UI**, and **React Hooks**. The app allows users to log daily health metrics, view a smart status indicator, receive logic-based insights, and get live content from public APIs — all with localStorage persistence across sessions.
 
