@@ -12,9 +12,9 @@ A modern, responsive Health & Wellness Dashboard built with **Next.js App Router
 
 ---
 
-## 🚀 Live Features
+##  Live Features
 
-### ✅ Core Features
+###  Core Features
 | Feature | Details |
 |---|---|
 | Health Input Form | Steps walked, water intake (L), calories (optional) |
@@ -24,13 +24,13 @@ A modern, responsive Health & Wellness Dashboard built with **Next.js App Router
 | Smart Insights | Logic-based suggestions generated from user data |
 | localStorage | Data persists across page refreshes, cleared on reset |
 
-### 🔌 Public API Integration
+###  Public API Integration
 | API | Usage |
 |---|---|
 | [Advice Slip API](https://api.adviceslip.com) | Daily wellness tip with refresh support |
 | [Bored API](https://bored-api.appbrewery.com) | Activity suggestion with category and participant info |
 
-### 🎁 Bonus Features
+###  Bonus Features
 - ✅ localStorage persistence (save, restore, clear)
 - ✅ Loading and error states on all API calls
 - ✅ Bar chart visualization via Recharts
@@ -39,7 +39,7 @@ A modern, responsive Health & Wellness Dashboard built with **Next.js App Router
 
 ---
 
-## 🧠 Smart Insights Logic
+##  Smart Insights Logic
 
 Defined in `src/lib/healthLogic.js`:
 
@@ -59,7 +59,7 @@ Multiple insights can appear simultaneously based on the data entered.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 health-wellness-dashboard/
@@ -135,7 +135,7 @@ http://localhost:3000
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -163,7 +163,7 @@ http://localhost:3000
 
 ---
 
-## 💾 localStorage Persistence
+##  localStorage Persistence
 
 Handled in `src/lib/storage.js`:
 
@@ -177,13 +177,13 @@ Data is stored under the key `health_dashboard_data` as JSON.
 
 ---
 
-## 📊 Health Chart
+##  Health Chart
 
 A `Recharts` `BarChart` in `HealthChart.jsx` renders three bars — Steps, Water (L), and Calories — using distinct colors per metric for quick visual comparison.
 
 ---
 
-## 💡 Implementation Decisions
+##  Implementation Decisions
 
 ### Why Next.js App Router?
 App Router provides a clean, scalable folder structure with co-located API routes. The `/api/activity` and `/api/advice` route handlers act as lightweight proxies, keeping external API calls server-side and avoiding CORS issues in the browser.
@@ -202,7 +202,7 @@ Calling external APIs from Next.js API routes (`/api/advice`, `/api/activity`) a
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Multi-day history tracking with trend charts
 - [ ] Weekly analytics and goal-setting
@@ -214,7 +214,7 @@ Calling external APIs from Next.js API routes (`/api/advice`, `/api/activity`) a
 
 ---
 
-## 👩‍💻 About
+##  About
 
 Built by **Khatija Zaidi** as part of the BITSFRAME Frontend Engineering Assignment.
 The goal was to demonstrate Next.js proficiency, clean component architecture, public API integration, and thoughtful UI/UX design.
