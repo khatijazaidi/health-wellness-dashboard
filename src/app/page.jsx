@@ -82,13 +82,14 @@ export default function HomePage() {
                 minHeight: "100vh",
                 py: { xs: 2.5, md: 5 },
                 position: 'relative',
+                overflowX: 'hidden',
             }}
         >
             {/* Background decorative layers */}
             <div className="bg-orb-bl" />
             <div className="bg-orb-mid" />
             <div className="dashboard-bg-geo" />
-            <Container maxWidth="xl" sx={{ position: 'relative', zIndex: 1 }}>
+            <Container maxWidth="xl" sx={{ position: 'relative', zIndex: 1, overflowX: 'hidden' }}>
                 <Stack spacing={3.25}>
                     <Paper
                         elevation={0}
@@ -195,9 +196,10 @@ export default function HomePage() {
                     <Box
                         sx={{
                             display: "grid",
-                            gridTemplateColumns: { xs: "1fr", md: "300px 1fr" },
+                            gridTemplateColumns: { xs: "1fr", md: "260px 1fr" },
                             gap: 3,
                             alignItems: "start",
+                            minWidth: 0,
                         }}
                     >
                         <Paper
@@ -266,7 +268,7 @@ export default function HomePage() {
                             </Box>
                         </Paper>
 
-                        <Paper sx={{ p: { xs: 2.25, md: 3.25 }, borderRadius: 4, position: 'relative', overflow: 'visible' }}>
+                        <Paper sx={{ p: { xs: 2.25, md: 3.25 }, borderRadius: 4, position: 'relative', overflow: 'hidden', minWidth: 0 }}>
                             {/* Animated themed background for API tabs */}
                             {(activeTab === "wellness" || activeTab === "activity") && (
                                 <>

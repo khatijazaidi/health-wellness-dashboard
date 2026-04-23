@@ -22,6 +22,7 @@ body {
   color: var(--text-primary);
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #e8f5ef;
+  overflow-x: hidden;
   background-image:
     radial-gradient(ellipse 80% 50% at 10% 0%, rgba(31, 111, 95, 0.18) 0%, transparent 60%),
     radial-gradient(ellipse 60% 40% at 90% 5%, rgba(111, 207, 151, 0.22) 0%, transparent 55%),
