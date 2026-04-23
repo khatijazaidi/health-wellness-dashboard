@@ -106,8 +106,7 @@ export default function HealthForm({ onSubmit, onReset, initialData }) {
                         onChange={handleChange("steps")}
                         error={Boolean(errors.steps)}
                         helperText={errors.steps || "Required: total steps today. Example: 8500"}
-                        placeholder="e.g. 8500"
-                        slotProps={{ htmlInput: { min: 0 } }}
+                        slotProps={{ htmlInput: { min: 0 }, inputLabel: { shrink: true } }}
                         fullWidth
                     />
 
@@ -119,8 +118,7 @@ export default function HealthForm({ onSubmit, onReset, initialData }) {
                         onChange={handleChange("water")}
                         error={Boolean(errors.water)}
                         helperText={errors.water || "Required: liters of water. Example: 2.3"}
-                        placeholder="e.g. 2.3"
-                        slotProps={{ htmlInput: { min: 0, step: 0.1 } }}
+                        slotProps={{ htmlInput: { min: 0, step: 0.1 }, inputLabel: { shrink: true } }}
                         fullWidth
                     />
 
@@ -131,8 +129,7 @@ export default function HealthForm({ onSubmit, onReset, initialData }) {
                         onChange={handleChange("calories")}
                         error={Boolean(errors.calories)}
                         helperText={errors.calories || "Optional: calories consumed. Example: 2100"}
-                        placeholder="e.g. 2100"
-                        slotProps={{ htmlInput: { min: 0 } }}
+                        slotProps={{ htmlInput: { min: 0 }, inputLabel: { shrink: true } }}
                         fullWidth
                     />
                     <Stack direction={{ xs: "column", sm: "row" }} spacing={1.5}>
