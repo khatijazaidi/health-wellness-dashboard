@@ -88,11 +88,9 @@ health-wellness-dashboard/
 │   └── lib/
 │       ├── activityApi.js              # Bored API fetch logic
 │       ├── adviceApi.js                # Advice Slip fetch logic
-│       ├── contextualActivity.js       # Activity context helpers
 │       ├── healthLogic.js              # Status + insights logic
 │       ├── healthRules.js              # Rules data for RulesCard
-│       ├── storage.js                  # localStorage helpers
-│       └── wellnessTip.js              # Tip formatting helpers
+│       └── storage.js                  # localStorage helpers
 ├── .gitignore
 ├── jsconfig.json
 ├── next.config.mjs
