@@ -111,7 +111,7 @@ health-wellness-dashboard/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/health-wellness-dashboard.git
+git clone https://github.com/khatijazaidi/health-wellness-dashboard.git
 cd health-wellness-dashboard
 ```
 
